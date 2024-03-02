@@ -131,21 +131,28 @@
     background: var(--iris);
     cursor: pointer;
 }
-.section1 {
+.section {
     max-width: 1128px;
     padding-top: 94px;
-}
-.future {
-    display: block;
-    width: 264px;
-    height: 224px;
-    justify-content: center;
-    align-items: center;
-}
-.list {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    justify-content: space-around;
+}
+.item {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;     
+}
+.item svg {
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: var(--cloud);
+}
+.item div {
+   text-align: left;
+}
+.item h3 {
+    margin-top: 0;
 }
 .photo-grid {
     width: 1200px;
@@ -231,17 +238,28 @@
     }
     .filters {
         text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
-    .list-filters {
+    .button-list {
         display: flex;
         list-style-type: none;
         padding: 0;
+        display: inline-block;
     }
-    .list-filters li {
-        display: inline;
+    .button-list li {
+        display: inline-block;
         margin: 6px;
     }
-    .button1 {
+    .button-list button {
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+    }
+    .list-filters button:hover {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    .button-All {
         border-radius: 4px;
         padding: 12px 24px;
         width: 69px;
@@ -250,7 +268,7 @@
         background: var(--ocean);
         color: #f4f4fd;
     }
-        .button2 {
+        .button-Web {
             border: 1px solid var(--cornflower);
             border-radius: 4px;
             padding: 12px 24px;
@@ -259,7 +277,7 @@
             background: var(--cloud);
             color: #404bbf;
         }
-        .button3 {
+        .button-App {
             border: 1px solid var(--cornflower);
             border-radius: 4px;
             padding: 12px 24px;
@@ -268,7 +286,7 @@
             background: var(--cloud);
             color: #404bbf;
         }
-        .button4 {
+        .button-Design {
             border: 1px solid var(--cornflower);
             border-radius: 4px;
             padding: 12px 24px;
@@ -277,7 +295,7 @@
             background: var(--cloud);
             color: #404bbf;
         }
-        .button5 {
+        .button-Marketing {
             border: 1px solid var(--cornflower);
             border-radius: 4px;
             padding: 12px 24px;
@@ -304,6 +322,7 @@
             padding-bottom: 94px;
         }
         .card {
+            margin-left: 20px;
         border: 1px solid var(--cloud);
         width: 360px;
         height: 420px;
