@@ -1,0 +1,217 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+
+}
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+.body {
+    width: 1440px;
+    height: 2592px;
+}
+.body {
+    background: var(--white);
+}
+.text-logo::after {
+    content: "Studio";
+    color: black;
+}
+.text-logo::before {
+    content: Web;
+    color: blue;
+}
+.text-log: {
+    width: 115px;
+    height: 24px;
+}
+.global-header {
+    display: flex;
+    flex-flow: row wrap;
+}
+.global-header {
+    width: 1440px;
+    height: 72px;
+}
+
+
+.main-nav ul li {
+    list-style-type: none;
+} 
+.main-hero {
+       background: var(--navy-blue);
+       color: var(--white);
+}
+.main-hero {
+    width: 1440px;
+    height: 600px;
+}
+
+.main-hero {
+    display: center;
+}
+.main-hero h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.main-container {
+    width: 1128px;
+    height: 104px;
+}
+
+.team {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.team {
+    width: 1440px;
+    height: 732px;
+}
+
+.card-1 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+     width: 264px;
+    height: 380px;
+}
+.card-1 {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: var(--white);
+}
+.card-2 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+.card-3 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+.card-4 {
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
+}
+.card-1 {
+    margin-left: 25px;
+}
+.photo-grid {
+    display: flex;
+    flex-flow: row wrap;
+}
+.photo-grid {
+    width: 1128px;
+    height: 412px;
+}
+.team {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+   
+   
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
