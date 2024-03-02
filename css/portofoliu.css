@@ -27,14 +27,11 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-
 }
-
 .text-logo::after {
     content: "Studio";
     color: black;
 }
-
 .text-logo::before {
     content: Web;
     color: blue;
@@ -100,7 +97,6 @@
     height: 72px;
     background: var(--white);
 }
-
 .buttons-section {
     width: 586px;
     height: 48px;
@@ -109,13 +105,13 @@
     align-items: center;
     align-content: center;
     padding-top: 68px;
-    padding-left: 327px;
-    
+    padding-left: 327px;   
 }
 .filters {
     text-align: center;
 }
  .list-filters {
+    display: flex; 
     list-style-type: none;
     padding: 0;
  }
@@ -132,7 +128,6 @@
     background: var(--ocean);
     color: white;
  }
-
  .button2 {
     border: 1px solid var(--cornflower);
     border-radius: 4px;
@@ -169,19 +164,15 @@
     background: var(--cloud);
     color :#404bbf;
  }
-
 .raw1 {
     display: flex;
     justify-content: space-around;
-    padding-top: 94px;
-    ;
+    padding-top: 94px;    
 }
-
 .raw2 {
     display: flex;
     justify-content: space-around;
-    padding-top: 94px;
-    
+    padding-top: 94px;   
 }
 .raw3 {
     display: flex;
@@ -196,7 +187,6 @@
     color: #fff;
     justify-content: center;
 }
-
 .footer-container {
     padding-top: 100px;
     padding-left: 156px;
