@@ -166,7 +166,6 @@
 }
 .team {
     width: 1200px;
-    height: 780px;
     padding-top: 94px;
     text-align: center;
     background: var(--cloud);
@@ -209,10 +208,56 @@
     transition: 0.3s;
     color: #08a57e;
 }
-.client-logo {
-    width: 1200px;
-    height: 300px;
+.section4 {
+    width: 1128px;
+    height: 200px;
 }
+.h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--navy-blue);    
+}
+.customer-logo {
+    width: 1128px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+.client-logo {
+    width: 168px;
+    height: 88px;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.svg {
+    width: 104px;
+    height: 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .global-footer {
     width: 1440px;
     height: 312px;
