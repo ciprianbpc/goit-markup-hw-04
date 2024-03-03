@@ -202,9 +202,16 @@
     height: 16px;
     justify-content: center;
 }
-.section4 {
-    width: 1128px;
-    height: 200px;
+.icons-list .icon:hoover {
+    color: var(--ocean);
+}
+.icons-list .icon:active {
+    transition: 0.3s;
+    color: #08a57e;
+}
+.client-logo {
+    width: 1200px;
+    height: 300px;
 }
 .global-footer {
     width: 1440px;
@@ -219,6 +226,14 @@
 }
 .footer-container .icons-list {
     display: flex;
+}
+.social {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--white);
 }
 .hr {
     border-bottom: 1px solid var(--cornflower);
